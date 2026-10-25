@@ -1,16 +1,9 @@
 # Structured data verification
 
-Implemented directly in HTML as JSON-LD, without client-side injection:
+Every generated page includes JSON-LD in its HTML. One shared LocalBusiness/Organization entity represents Houston Dumpster Rental at 2812 Center St, Houston, TX 77007, phone +1 346-660-2743. Coordinates matched by the official U.S. Census geocoder: latitude 29.76948834818, longitude -95.38765257458.
 
-- Organization and WebSite describe the confirmed brand and primary domain.
-- WebPage describes each of the five pages.
-- Service describes the dumpster rental subject on the homepage and two service guides, with Houston as the confirmed city.
-- BreadcrumbList matches visible breadcrumbs on the service guides and size guide, and the Home link and current page on the HTML site map.
+WebSite and WebPage/CollectionPage describe the site and its individual pages. BreadcrumbList follows visible navigation. Service entities describe the homepage and five service pages. The eight area guides use the same Houston business entity; no separate branches, addresses or offices are invented. No invented ratings, reviews, hours, prices, certifications or inventory. No deprecated HowTo markup or FAQ rich-result promise.
 
-LocalBusiness address, phone, opening hours, coordinates, prices, reviews, rating and social profiles are omitted until independently confirmed. Organization is used while those business details are pending. No deprecated HowTo or self-serving review markup. No FAQ rich-result promise.
+Run `python3 scripts/check_site.py` after `python3 scripts/build_site.py`. Checks cover 18 canonical pages, unique title/description, one H1 per page, all JSON-LD parseable and references resolved, exact confirmed phone/address, local assets and links, service/area content minimums, no orphan pages, robots and identical 18-URL XML sitemaps. Build is deterministic and uses only the Python standard library.
 
-Local checks passed: valid JSON on all five pages; all entity references resolve within each graph; absolute canonical URLs; unique page URLs; one H1 per page; all local links and assets resolve; five canonical pages exactly match both XML sitemap files. Both XML files parse successfully; CSS presents the five entries without browser XSLT warnings. Residential and construction guides each exceed 800 words of original body content. The size guide is informational, not an inventory list.
-
-Browser checks cover service-page desktop/mobile overflow and sitemap presentation. All 12 production fallback routes passed, including page schema/canonical checks. Operational handoff and environment files return 404. Custom-domain DNS/HTTPS propagation is pending. External schema validator and Search Console indexing remain post-launch checks.
-
-References: https://schema.org/Service and https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
+Browser QA verifies muted video playback, pause/play, no source loading under reduced motion, mobile menu and Escape behavior, header/hero contrast, and no desktop/mobile overflow. Production verification must confirm the deployed commit, all routes, schema, video, poster, source-file exclusion and both sitemaps.

@@ -4,3 +4,7 @@ STRUCTURE.md
 SOURCES.txt
 .git
 .env*
+scripts/
+templates/
+content.json
+GMB-INFO.txt
