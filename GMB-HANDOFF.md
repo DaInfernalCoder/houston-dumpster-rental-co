@@ -21,7 +21,7 @@ Also owned: houstondumpsterrental.shop. Both domains registered October 25, 2026
 - [x] Add services/areas hubs, size guide, HTML site map and two matching CSS-styled 18-URL XML sitemaps.
 - [x] Validate unique metadata, one H1, exact canonicals, linked schema entities, content gates, no orphan pages, local references and source exclusions.
 - [x] Verify desktop/mobile video playback, pause/play, reduced-motion no-source loading, menu/Escape, contrast and overflow.
-- [x] Verify all production pages, video/poster and control assets on fallback; confirm custom-domain HTTPS/video playback and www redirect in browser.
+- [x] Verify all production pages, video/poster and control assets on fallback; confirm custom-domain HTTPS/video playback in browser. www redirect is configured; public www redirect verification remains pending.
 - [x] Confirm Vercel nameservers saved in Spaceship; primary now configured correctly and browser-reachable over HTTPS.
 - [x] Save GMB-INFO.txt with the owner's confirmed fields and natural business description.
 
