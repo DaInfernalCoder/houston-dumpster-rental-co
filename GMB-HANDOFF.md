@@ -1,6 +1,6 @@
 # Houston Dumpster Rental
 
-Requested outcome: purchase houstondumpsterrental.shop through Spaceship and design a local website. Owner narrowed scope on October 25, 2026; contact details and full launch are deferred.
+Requested outcome: purchase houstondumpsterrental.shop through Spaceship and design a local website. Owner authorized Vercel production deployment on October 25, 2026; contact details remain deferred.
 
 Brand: Houston Dumpster Rental. Service: dumpster rental. Location: Houston, Texas.
 Primary domain: houstondumpsterrentalco.shop, registered and verified October 25, 2026; expires October 25, 2027. Also purchased and retained: houstondumpsterrental.shop, same expiration date. Both verified in owner Spaceship account, high privacy, auto-renew off; existing basic Spaceship nameservers retained. Owner explicitly requested the second purchase after the first completed.
@@ -19,4 +19,8 @@ Design: industrial blue (#1748cf), navy (#102847), white (#ffffff), cool gray (#
 
 Current state: both domains registered; local dependency-free HTML/CSS design complete. Static preflight passes. Advertised first-year price $0.70 each, renewal $31.05; actual billed amount was not returned by registration API. No phone/address invented; navigation uses functioning planning anchors. No booking link, per owner.
 Blocker for full launch: confirmed phone/address are deferred by owner. No GMB pack or GeoStamp entry until those are confirmed.
-Next action: hand off the checked local design and SEO pages. Deployment, DNS changes, GMB asset pack, and GeoStamp are deferred under owner narrowed scope; resume launch when contact details are supplied.
+Next action: create dedicated GitHub/Vercel projects, push main, deploy production, connect primary apex/www and configure Spaceship DNS. GMB asset pack and GeoStamp await confirmed phone/address.
+
+- [ ] Push dedicated GitHub repository and connect Vercel Git integration.
+- [ ] Deploy production and verify all five routes, schema, control files and assets.
+- [ ] Attach apex/www, configure registrar DNS, and verify or record fresh propagation pending.

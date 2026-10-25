@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.houstondumpsterrentalco.shop"
+        }
+      ],
+      "destination": "https://houstondumpsterrentalco.shop/:path*",
+      "permanent": true
+    }
+  ]
+}
