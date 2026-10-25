@@ -1,26 +1,30 @@
 # Houston Dumpster Rental
 
-Requested outcome: purchase houstondumpsterrental.shop through Spaceship and design a local website. Owner authorized Vercel production deployment on October 25, 2026; contact details remain deferred.
+Owner-authorized outcome: purchase domains, design Houston website with SEO pages/schema/styled sitemap, push GitHub and deploy Vercel production. Phone/address remain deferred. Owner explicitly requests no booking link.
 
-Brand: Houston Dumpster Rental. Service: dumpster rental. Location: Houston, Texas.
-Primary domain: houstondumpsterrentalco.shop, registered and verified October 25, 2026; expires October 25, 2027. Also purchased and retained: houstondumpsterrental.shop, same expiration date. Both verified in owner Spaceship account, high privacy, auto-renew off; existing basic Spaceship nameservers retained. Owner explicitly requested the second purchase after the first completed.
-Phone and street address: not supplied. Booking: owner explicitly requests no booking link.
+Brand: Houston Dumpster Rental. Service: dumpster rental. City/state: Houston, Texas.
+Primary domain: houstondumpsterrentalco.shop. Also owned: houstondumpsterrental.shop. Both registered October 25, 2026 through October 25, 2027 with high privacy and auto-renew off. The second domain was explicitly requested after the first purchase completed. Advertised first-year price was $0.70 each; API did not return actual billed totals.
 
-Truth constraints: no invented prices, available sizes, fleet, delivery promises, reviews, certifications, phone, or address. No unrelated auto-detailing scheduling.
+Production: https://houston-dumpster-rental-co.vercel.app
+Custom: https://houstondumpsterrentalco.shop (fresh DNS/HTTPS propagation pending).
+GitHub: https://github.com/DaInfernalCoder/houston-dumpster-rental-co
+Vercel: https://vercel.com/dainfernalcoders-projects/houston-dumpster-rental-co
+Linked project: prj_7EX2JyCi2RtyH1R7fc2ZVyuzfkLB in existing dainfernalcoders-projects team.
+Verified production release: dpl_Fp9seym3pHbeJVXxtgFiX3ZPoGA1, READY. Vercel Git integration connected; main pushed.
 
-Design: industrial blue (#1748cf), navy (#102847), white (#ffffff), cool gray (#edf1f5), safety yellow (#f6ce46). Condensed heavyweight display type and readable sans-serif body. Oversized container illustration with actual ribbed steel geometry anchors a clean, spacious layout.
+- [x] Register requested domains and verify ownership/privacy/auto-renew.
+- [x] Build responsive dependency-free site with original vector logo/container art.
+- [x] Build residential/construction rental guides, size guide and HTML site map.
+- [x] Add Organization, WebSite, WebPage, BreadcrumbList and Service JSON-LD.
+- [x] Add five canonical URLs to sitemap.xml and sitemaps.xml with responsive CSS styling and robots reference.
+- [x] Validate static pages, internal links, schema references, sitemap coverage, desktop/mobile rendering, FAQ, anchors, header contrast and overflow.
+- [x] Push GitHub, connect Vercel and deploy production.
+- [x] Verify all 12 fallback routes/control files/assets and five HTML pages' canonicals/schema/H1s. Operational handoff and .env.local return 404.
+- [x] Attach apex/www with verified ownership and configure www-to-apex redirect.
+- [x] Confirm empty preexisting DNS zone and save ns1.vercel-dns.com/ns2.vercel-dns.com through Spaceship; verify registrar readback.
 
-- [x] Check domain availability and official pricing.
-- [x] Purchase both exact requested domains and verify ownership/privacy/auto-renew.
-- [x] Design responsive static site with project types, process, planning information and FAQ.
-- [x] Check desktop and phone layouts in a real browser; images, FAQ, anchors, header contrast and overflow pass.
-- [x] Provide domain and local design handoff.
-- [x] Apply SEO/schema/sitemap skills: two substantial service pages, size guide, HTML site map, five JSON-LD graphs, CSS-styled sitemap.xml and sitemaps.xml (avoids browser XSLT deprecation), robots.txt, internal links and canonical metadata.
+Current state: website publicly available through production Vercel fallback. Single immediate apex/www DNS/HTTPS check could not resolve the fresh registration; custom-domain propagation pending. Do not poll or wait on DNS. Unused first domain remains on its original registrar nameservers.
 
-Current state: both domains registered; local dependency-free HTML/CSS design complete. Static preflight passes. Advertised first-year price $0.70 each, renewal $31.05; actual billed amount was not returned by registration API. No phone/address invented; navigation uses functioning planning anchors. No booking link, per owner.
-Blocker for full launch: confirmed phone/address are deferred by owner. No GMB pack or GeoStamp entry until those are confirmed.
-Next action: create dedicated GitHub/Vercel projects, push main, deploy production, connect primary apex/www and configure Spaceship DNS. GMB asset pack and GeoStamp await confirmed phone/address.
+Truth constraints: no invented phone, street address, prices, fleet, size availability, hours, certifications, reviews or delivery guarantees. Common size labels in guide are market examples, not inventory. Organization is used until complete local business details are confirmed. No booking link. No GMB asset pack or GeoStamp entry until confirmed phone/address. Original SVG art represents the design, not owned inventory or past work.
 
-- [ ] Push dedicated GitHub repository and connect Vercel Git integration.
-- [ ] Deploy production and verify all five routes, schema, control files and assets.
-- [ ] Attach apex/www, configure registrar DNS, and verify or record fresh propagation pending.
+Next action: hand off the working production URL. On a later owner request, verify custom-domain propagation. Obtain confirmed phone/address to add call CTAs and finish GMB-INFO/image pack/GeoStamp. Search Console Domain ownership is a non-blocking post-launch step: request the new domain-specific TXT token.

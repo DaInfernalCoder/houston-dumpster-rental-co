@@ -11,6 +11,6 @@ LocalBusiness address, phone, opening hours, coordinates, prices, reviews, ratin
 
 Local checks passed: valid JSON on all five pages; all entity references resolve within each graph; absolute canonical URLs; unique page URLs; one H1 per page; all local links and assets resolve; five canonical pages exactly match both XML sitemap files. Both XML files parse successfully; CSS presents the five entries without browser XSLT warnings. Residential and construction guides each exceed 800 words of original body content. The size guide is informational, not an inventory list.
 
-Browser checks cover service-page desktop/mobile overflow and sitemap presentation. Production URL status, external schema validator and Search Console indexing remain launch-time checks because this site is not deployed.
+Browser checks cover service-page desktop/mobile overflow and sitemap presentation. All 12 production fallback routes passed, including page schema/canonical checks. Operational handoff and environment files return 404. Custom-domain DNS/HTTPS propagation is pending. External schema validator and Search Console indexing remain post-launch checks.
 
 References: https://schema.org/Service and https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
