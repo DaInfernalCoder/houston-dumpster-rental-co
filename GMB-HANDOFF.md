@@ -15,7 +15,7 @@ Design: industrial blue (#1748cf), navy (#102847), white (#ffffff), cool gray (#
 - [x] Design responsive static site with project types, process, planning information and FAQ.
 - [x] Check desktop and phone layouts in a real browser; images, FAQ, anchors, header contrast and overflow pass.
 - [x] Provide domain and local design handoff.
-- [x] Apply SEO/schema/sitemap skills: two substantial service pages, size guide, HTML site map, five JSON-LD graphs, styled sitemap.xml and sitemaps.xml, robots.txt, internal links and canonical metadata.
+- [x] Apply SEO/schema/sitemap skills: two substantial service pages, size guide, HTML site map, five JSON-LD graphs, CSS-styled sitemap.xml and sitemaps.xml (avoids browser XSLT deprecation), robots.txt, internal links and canonical metadata.
 
 Current state: both domains registered; local dependency-free HTML/CSS design complete. Static preflight passes. Advertised first-year price $0.70 each, renewal $31.05; actual billed amount was not returned by registration API. No phone/address invented; navigation uses functioning planning anchors. No booking link, per owner.
 Blocker for full launch: confirmed phone/address are deferred by owner. No GMB pack or GeoStamp entry until those are confirmed.

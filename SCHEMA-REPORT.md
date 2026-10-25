@@ -9,7 +9,7 @@ Implemented directly in HTML as JSON-LD, without client-side injection:
 
 LocalBusiness address, phone, opening hours, coordinates, prices, reviews, rating and social profiles are omitted until independently confirmed. Organization is used while those business details are pending. No deprecated HowTo or self-serving review markup. No FAQ rich-result promise.
 
-Local checks passed: valid JSON on all five pages; all entity references resolve within each graph; absolute canonical URLs; unique page URLs; one H1 per page; all local links and assets resolve; five canonical pages exactly match both XML sitemap files. XML and XSL parse successfully and XSL renders five table rows. Residential and construction guides each exceed 800 words of original body content. The size guide is informational, not an inventory list.
+Local checks passed: valid JSON on all five pages; all entity references resolve within each graph; absolute canonical URLs; unique page URLs; one H1 per page; all local links and assets resolve; five canonical pages exactly match both XML sitemap files. Both XML files parse successfully; CSS presents the five entries without browser XSLT warnings. Residential and construction guides each exceed 800 words of original body content. The size guide is informational, not an inventory list.
 
 Browser checks cover service-page desktop/mobile overflow and sitemap presentation. Production URL status, external schema validator and Search Console indexing remain launch-time checks because this site is not deployed.
 
