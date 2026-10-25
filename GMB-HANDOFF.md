@@ -10,7 +10,7 @@ Phone: +1 346-660-2743
 Address: 2812 Center St, Houston, TX 77007
 Census exact match: 29.76948834818, -95.38765257458 (October 25, 2026).
 
-Also owned: houstondumpsterrental.shop. Both domains registered October 25, 2026 through October 25, 2027, high privacy, auto-renew off. The first registration completed before the owner requested the second; both purchases were separately authorized. Only the primary domain was connected to Vercel; unused first domain retains registrar DNS.
+Also owned: houstondumpsterrental.shop. Both domains registered October 25, 2026 through October 25, 2027, high privacy, auto-renew off. The first registration completed before the owner requested the second; both purchases were separately authorized. Both domains and their www hosts are attached to the same Vercel project. The primary remains houstondumpsterrentalco.shop; secondary apex/www redirect permanently with the path preserved. Spaceship confirms both domains use ns1.vercel-dns.com/ns2.vercel-dns.com. Secondary DNS/HTTPS propagation remains pending at its single immediate check.
 
 - [x] Register domains and verify ownership/privacy/auto-renew.
 - [x] Push GitHub main and connect Vercel automatic production deploys.
@@ -31,4 +31,6 @@ Maintenance: edit content.json and templates/home-content.html, run `python3 scr
 
 Truth constraints: one confirmed Houston business entity; no invented local branches, reviews, hours, prices, delivery guarantees, size availability, certifications or history. Area pages require address-specific availability confirmation. Stock video is illustrative, not claimed as owned equipment, staff, completed work, or a Houston filming location. License/source recorded in SOURCES.txt. No booking link, form or public email.
 
-Current state: requested website redesign pushed and deployed. No website blocker. Optional follow-up: Search Console Domain property TXT verification; owner has not supplied a token. GMB image pack/GeoStamp were outside the narrowed website request and have not been completed during this redesign.
+Current state: requested website redesign pushed and deployed. No website blocker. Search Console: primary Domain property verified on October 25, 2026; sitemap.xml submitted successfully, with Success status and 18 discovered pages. Secondary Domain property created and its distinct TXT record saved in authoritative Vercel DNS; first Google attempt could not see the new TXT yet, so verification is propagation pending. Do not poll or reuse either domain’s token. Later next action: retry verification of sc-domain:houstondumpsterrental.shop after propagation, then verify secondary apex/www redirects. GMB image pack/GeoStamp were outside the narrowed website request and have not been completed during this redesign.
+
+Secondary-domain release: c30e818; production dpl_GiMaAAqDrxoch9VvYfTWUuBTwjEs, READY. Vercel inspection shows all four custom hosts attached; fallback retained video and call flow. Authoritative ownership TXT records were added using the gmb-search-console-verification skill. No tokens or credentials are stored here. Primary Search Console sitemap proof: Success, Oct 25, 2026, 18 discovered pages. Google discovery is not a claim of indexing.
