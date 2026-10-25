@@ -1,34 +1,34 @@
 # Houston Dumpster Rental
 
-Owner-authorized outcome: purchase domains, design Houston website with SEO pages/schema/styled sitemap, push GitHub and deploy Vercel production. Confirmed phone/address supplied by owner on October 25. Owner explicitly requests no booking link.
+Outcome: owner-authorized Houston website launched with a video background hero, call CTAs, expanded service/area pages, accurate schema and styled sitemaps. Owner explicitly requests no booking link.
 
-Brand: Houston Dumpster Rental. Service: dumpster rental. City/state: Houston, Texas.
-Primary domain: houstondumpsterrentalco.shop. Also owned: houstondumpsterrental.shop. Both registered October 25, 2026 through October 25, 2027 with high privacy and auto-renew off. The second domain was explicitly requested after the first purchase completed. Advertised first-year price was $0.70 each; API did not return actual billed totals.
-
-Production: https://houston-dumpster-rental-co.vercel.app
-Custom: https://houstondumpsterrentalco.shop (fresh DNS/HTTPS propagation pending).
+Primary domain: https://houstondumpsterrentalco.shop
+Fallback: https://houston-dumpster-rental-co.vercel.app
 GitHub: https://github.com/DaInfernalCoder/houston-dumpster-rental-co
 Vercel: https://vercel.com/dainfernalcoders-projects/houston-dumpster-rental-co
-Linked project: prj_7EX2JyCi2RtyH1R7fc2ZVyuzfkLB in existing dainfernalcoders-projects team.
-Verified production release: dpl_Fp9seym3pHbeJVXxtgFiX3ZPoGA1, READY. Vercel Git integration connected; main pushed.
+Phone: +1 346-660-2743
+Address: 2812 Center St, Houston, TX 77007
+Census exact match: 29.76948834818, -95.38765257458 (October 25, 2026).
 
-- [x] Register requested domains and verify ownership/privacy/auto-renew.
-- [x] Build responsive dependency-free site with original vector logo/container art.
-- [x] Build residential/construction rental guides, size guide and HTML site map.
-- [x] Add Organization, WebSite, WebPage, BreadcrumbList and Service JSON-LD.
-- [x] Add five canonical URLs to sitemap.xml and sitemaps.xml with responsive CSS styling and robots reference.
-- [x] Validate static pages, internal links, schema references, sitemap coverage, desktop/mobile rendering, FAQ, anchors, header contrast and overflow.
-- [x] Push GitHub, connect Vercel and deploy production.
-- [x] Verify all 12 fallback routes/control files/assets and five HTML pages' canonicals/schema/H1s. Operational handoff and .env.local return 404.
-- [x] Attach apex/www with verified ownership and configure www-to-apex redirect.
-- [x] Confirm empty preexisting DNS zone and save ns1.vercel-dns.com/ns2.vercel-dns.com through Spaceship; verify registrar readback.
+Also owned: houstondumpsterrental.shop. Both domains registered October 25, 2026 through October 25, 2027, high privacy, auto-renew off. The first registration completed before the owner requested the second; both purchases were separately authorized. Only the primary domain was connected to Vercel; unused first domain retains registrar DNS.
 
-Current state: website publicly available through production Vercel fallback. Single immediate apex/www DNS/HTTPS check could not resolve the fresh registration; custom-domain propagation pending. Do not poll or wait on DNS. Unused first domain remains on its original registrar nameservers.
+- [x] Register domains and verify ownership/privacy/auto-renew.
+- [x] Push GitHub main and connect Vercel automatic production deploys.
+- [x] Deploy muted locally hosted 13-second video hero with overlay text, visible pause/play and reduced-motion poster fallback.
+- [x] Add confirmed phone, call buttons/sticky mobile call bar, address and local schema to all 18 pages.
+- [x] Add five services: residential, construction, roll-off, roofing and commercial.
+- [x] Add eight owner-approved area pages: Katy, Cypress, Spring, The Woodlands, Sugar Land, Pearland, The Heights and Montrose.
+- [x] Add services/areas hubs, size guide, HTML site map and two matching CSS-styled 18-URL XML sitemaps.
+- [x] Validate unique metadata, one H1, exact canonicals, linked schema entities, content gates, no orphan pages, local references and source exclusions.
+- [x] Verify desktop/mobile video playback, pause/play, reduced-motion no-source loading, menu/Escape, contrast and overflow.
+- [x] Verify all production pages, video/poster and control assets on fallback; confirm custom-domain HTTPS/video playback and www redirect in browser.
+- [x] Confirm Vercel nameservers saved in Spaceship; primary now configured correctly and browser-reachable over HTTPS.
+- [x] Save GMB-INFO.txt with the owner's confirmed fields and natural business description.
 
-Truth constraints: no invented phone, street address, prices, fleet, size availability, hours, certifications, reviews or delivery guarantees. Common size labels in guide are market examples, not inventory. Organization is used until complete local business details are confirmed. No booking link. Phone/address are confirmed; GMB-INFO.txt is complete. No fabricated reviews or claims. Original SVG art represents the design, not owned inventory or past work.
+Verified feature commit: bb64490. Production release: dpl_8A2NqMFFvQGSvnPUowGrtxuQy4sv, READY, automatically built from pushed main. Linked project prj_7EX2JyCi2RtyH1R7fc2ZVyuzfkLB in dainfernalcoders-projects.
 
-Next action: hand off the working production URL. On a later owner request, verify custom-domain propagation. Obtain confirmed phone/address to add call CTAs and finish GMB-INFO/image pack/GeoStamp. Search Console Domain ownership is a non-blocking post-launch step: request the new domain-specific TXT token.
+Maintenance: edit content.json and templates/home-content.html, run `python3 scripts/build_site.py`, then `python3 scripts/check_site.py` and `node --check site.js`. Commit generated routes and every referenced local asset. Scripts/templates/source/operational records/.env.local are excluded from public deployment. Browser validation should include live video playback and pause button visibility above mobile call bar. XML uses CSS, avoiding deprecated XSLT browser rendering.
 
-October 25 redesign authorized: replace illustrated homepage hero with licensed dumpster footage, muted looping background with overlay text and pause control; expand services and eight owner-approved areas: Katy, Cypress, Spring, The Woodlands, Sugar Land, Pearland, The Heights and Montrose. Rebuild navigation, schema and both sitemaps. No phone/address/booking changes. Current next action: push main and verify new production. Local QA passes for 18 pages, video playback/pause/reduced motion, mobile menu, phone/address schema, complete 18-URL sitemaps and no mobile overflow.
+Truth constraints: one confirmed Houston business entity; no invented local branches, reviews, hours, prices, delivery guarantees, size availability, certifications or history. Area pages require address-specific availability confirmation. Stock video is illustrative, not claimed as owned equipment, staff, completed work, or a Houston filming location. License/source recorded in SOURCES.txt. No booking link, form or public email.
 
-Confirmed public phone: +1 346-660-2743. Confirmed public address: 2812 Center St, Houston, TX 77007. Census exact match coordinates: 29.76948834818, -95.38765257458. Five service pages: residential, construction, roll-off, roofing, commercial. Eight owner-approved area guides plus services/areas hubs bring total HTML pages to 18. Build command: python3 scripts/build_site.py; verification: python3 scripts/check_site.py.
+Current state: requested website redesign pushed and deployed. No website blocker. Optional follow-up: Search Console Domain property TXT verification; owner has not supplied a token. GMB image pack/GeoStamp were outside the narrowed website request and have not been completed during this redesign.
